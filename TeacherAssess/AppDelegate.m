@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "MainTabBarViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,6 +18,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    MainTabBarViewController * tabBarVc = [[MainTabBarViewController alloc]init];
+    
+    UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:tabBarVc];
+    
+    nvc.navigationBar.barTintColor = [UIColor colorWithRed:255/256.0 green:51/256.0 blue:153/256.0 alpha:1];
+    
+    self.window.rootViewController = nvc;
+    
     // Override point for customization after application launch.
     return YES;
 }
