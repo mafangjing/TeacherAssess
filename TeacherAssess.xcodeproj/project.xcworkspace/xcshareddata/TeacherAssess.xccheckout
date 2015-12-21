@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>977FCF35-89FB-423A-9BE3-49AAA002D726</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TeacherAssess</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BD89BE541E5EA864A4C1E7F45799ECC986DA06E7</key>
+		<string>https://github.com/mafangjing/TeacherAssess.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TeacherAssess.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BD89BE541E5EA864A4C1E7F45799ECC986DA06E7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mafangjing/TeacherAssess.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BD89BE541E5EA864A4C1E7F45799ECC986DA06E7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BD89BE541E5EA864A4C1E7F45799ECC986DA06E7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TeacherAssess</string>
+		</dict>
+	</array>
+</dict>
+</plist>
