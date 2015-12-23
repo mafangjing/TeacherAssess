@@ -2,8 +2,8 @@
 //  MainTabBarViewController.m
 //  Wedding
 //
-//  Created by qianfeng on 15-10-2.
-//  Copyright (c) 2015年 qianfeng. All rights reserved.
+//  Created by hjh on 15-10-2.
+//  Copyright (c) 2015年 hjh. All rights reserved.
 //
 
 #import "MainTabBarViewController.h"

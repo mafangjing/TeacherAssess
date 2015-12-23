@@ -490,6 +490,41 @@
 		82ED5CE41C27AD68009B4D34 /* TQRichTextURLRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5C391C27AD68009B4D34 /* TQRichTextURLRun.m */; };
 		82ED5CE51C27AD68009B4D34 /* TQRichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5C3B1C27AD68009B4D34 /* TQRichTextView.m */; };
 		82ED5CE71C27ADAD009B4D34 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ED5CE61C27ADAD009B4D34 /* libsqlite3.dylib */; };
+		82ED5D591C2AA2E1009B4D34 /* GengDuoJingXuanHunLiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D1E1C2AA2E1009B4D34 /* GengDuoJingXuanHunLiViewController.m */; };
+		82ED5D5A1C2AA2E1009B4D34 /* GengDuoShiPingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D201C2AA2E1009B4D34 /* GengDuoShiPingViewController.m */; };
+		82ED5D5B1C2AA2E1009B4D34 /* HunJiaDetilaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D241C2AA2E1009B4D34 /* HunJiaDetilaViewController.m */; };
+		82ED5D5C1C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D261C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.m */; };
+		82ED5D5D1C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED5D271C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.xib */; };
+		82ED5D5E1C2AA2E1009B4D34 /* HunJiaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D291C2AA2E1009B4D34 /* HunJiaTableViewCell.m */; };
+		82ED5D5F1C2AA2E1009B4D34 /* HunJiaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED5D2A1C2AA2E1009B4D34 /* HunJiaTableViewCell.xib */; };
+		82ED5D601C2AA2E1009B4D34 /* HunJiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D2C1C2AA2E1009B4D34 /* HunJiaViewController.m */; };
+		82ED5D611C2AA2E1009B4D34 /* HunLiMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D2E1C2AA2E1009B4D34 /* HunLiMusicViewController.m */; };
+		82ED5D621C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D301C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.m */; };
+		82ED5D631C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED5D311C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.xib */; };
+		82ED5D641C2AA2E1009B4D34 /* JXHunLiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D331C2AA2E1009B4D34 /* JXHunLiViewController.m */; };
+		82ED5D651C2AA2E1009B4D34 /* bofangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D361C2AA2E1009B4D34 /* bofangViewController.m */; };
+		82ED5D661C2AA2E1009B4D34 /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D381C2AA2E1009B4D34 /* MusicPlayerViewController.m */; };
+		82ED5D671C2AA2E1009B4D34 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D3A1C2AA2E1009B4D34 /* MusicViewController.m */; };
+		82ED5D681C2AA2E1009B4D34 /* ShipinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D3C1C2AA2E1009B4D34 /* ShipinViewController.m */; };
+		82ED5D691C2AA2E1009B4D34 /* HunTuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D3F1C2AA2E1009B4D34 /* HunTuCollectionViewCell.m */; };
+		82ED5D6A1C2AA2E1009B4D34 /* HunTuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED5D401C2AA2E1009B4D34 /* HunTuCollectionViewCell.xib */; };
+		82ED5D6B1C2AA2E1009B4D34 /* HunTuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D421C2AA2E1009B4D34 /* HunTuViewController.m */; };
+		82ED5D6C1C2AA2E1009B4D34 /* HunJiaSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D451C2AA2E1009B4D34 /* HunJiaSearchViewController.m */; };
+		82ED5D6D1C2AA2E1009B4D34 /* BigPhotopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D481C2AA2E1009B4D34 /* BigPhotopViewController.m */; };
+		82ED5D6E1C2AA2E1009B4D34 /* BPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D4A1C2AA2E1009B4D34 /* BPhotoListViewController.m */; };
+		82ED5D6F1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D4C1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.m */; };
+		82ED5D701C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED5D4D1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.xib */; };
+		82ED5D711C2AA2E1009B4D34 /* HunLiLingGanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D4F1C2AA2E1009B4D34 /* HunLiLingGanViewController.m */; };
+		82ED5D721C2AA2E1009B4D34 /* PhotoListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D511C2AA2E1009B4D34 /* PhotoListCollectionViewCell.m */; };
+		82ED5D731C2AA2E1009B4D34 /* PhotoListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED5D521C2AA2E1009B4D34 /* PhotoListCollectionViewCell.xib */; };
+		82ED5D741C2AA2E1009B4D34 /* HLSPTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D541C2AA2E1009B4D34 /* HLSPTableViewCell.m */; };
+		82ED5D751C2AA2E1009B4D34 /* HLSPTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED5D551C2AA2E1009B4D34 /* HLSPTableViewCell.xib */; };
+		82ED5D761C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D571C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.m */; };
+		82ED5D771C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82ED5D581C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.xib */; };
+		82ED5D7B1C2AA3A8009B4D34 /* HunliLingGanNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D7A1C2AA3A8009B4D34 /* HunliLingGanNetwork.m */; };
+		82ED5D7E1C2AA3B9009B4D34 /* FirstNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D7D1C2AA3B9009B4D34 /* FirstNetWork.m */; };
+		82ED5D811C2AA3C8009B4D34 /* HunTuNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D801C2AA3C8009B4D34 /* HunTuNetWork.m */; };
+		82ED5D841C2AA424009B4D34 /* FirstViewLocalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED5D831C2AA424009B4D34 /* FirstViewLocalData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1062,6 +1097,69 @@
 		82ED5C3A1C27AD68009B4D34 /* TQRichTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TQRichTextView.h; sourceTree = "<group>"; };
 		82ED5C3B1C27AD68009B4D34 /* TQRichTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TQRichTextView.m; sourceTree = "<group>"; };
 		82ED5CE61C27ADAD009B4D34 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		82ED5D1D1C2AA2E1009B4D34 /* GengDuoJingXuanHunLiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GengDuoJingXuanHunLiViewController.h; sourceTree = "<group>"; };
+		82ED5D1E1C2AA2E1009B4D34 /* GengDuoJingXuanHunLiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GengDuoJingXuanHunLiViewController.m; sourceTree = "<group>"; };
+		82ED5D1F1C2AA2E1009B4D34 /* GengDuoShiPingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GengDuoShiPingViewController.h; sourceTree = "<group>"; };
+		82ED5D201C2AA2E1009B4D34 /* GengDuoShiPingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GengDuoShiPingViewController.m; sourceTree = "<group>"; };
+		82ED5D231C2AA2E1009B4D34 /* HunJiaDetilaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunJiaDetilaViewController.h; sourceTree = "<group>"; };
+		82ED5D241C2AA2E1009B4D34 /* HunJiaDetilaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunJiaDetilaViewController.m; sourceTree = "<group>"; };
+		82ED5D251C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunJiaMusicCollectionViewCell.h; sourceTree = "<group>"; };
+		82ED5D261C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunJiaMusicCollectionViewCell.m; sourceTree = "<group>"; };
+		82ED5D271C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HunJiaMusicCollectionViewCell.xib; sourceTree = "<group>"; };
+		82ED5D281C2AA2E1009B4D34 /* HunJiaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunJiaTableViewCell.h; sourceTree = "<group>"; };
+		82ED5D291C2AA2E1009B4D34 /* HunJiaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunJiaTableViewCell.m; sourceTree = "<group>"; };
+		82ED5D2A1C2AA2E1009B4D34 /* HunJiaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HunJiaTableViewCell.xib; sourceTree = "<group>"; };
+		82ED5D2B1C2AA2E1009B4D34 /* HunJiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunJiaViewController.h; sourceTree = "<group>"; };
+		82ED5D2C1C2AA2E1009B4D34 /* HunJiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunJiaViewController.m; sourceTree = "<group>"; };
+		82ED5D2D1C2AA2E1009B4D34 /* HunLiMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunLiMusicViewController.h; sourceTree = "<group>"; };
+		82ED5D2E1C2AA2E1009B4D34 /* HunLiMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunLiMusicViewController.m; sourceTree = "<group>"; };
+		82ED5D2F1C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JxHunLiFirstTableViewCell.h; sourceTree = "<group>"; };
+		82ED5D301C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JxHunLiFirstTableViewCell.m; sourceTree = "<group>"; };
+		82ED5D311C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JxHunLiFirstTableViewCell.xib; sourceTree = "<group>"; };
+		82ED5D321C2AA2E1009B4D34 /* JXHunLiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXHunLiViewController.h; sourceTree = "<group>"; };
+		82ED5D331C2AA2E1009B4D34 /* JXHunLiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXHunLiViewController.m; sourceTree = "<group>"; };
+		82ED5D351C2AA2E1009B4D34 /* bofangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bofangViewController.h; sourceTree = "<group>"; };
+		82ED5D361C2AA2E1009B4D34 /* bofangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bofangViewController.m; sourceTree = "<group>"; };
+		82ED5D371C2AA2E1009B4D34 /* MusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		82ED5D381C2AA2E1009B4D34 /* MusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		82ED5D391C2AA2E1009B4D34 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		82ED5D3A1C2AA2E1009B4D34 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		82ED5D3B1C2AA2E1009B4D34 /* ShipinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShipinViewController.h; sourceTree = "<group>"; };
+		82ED5D3C1C2AA2E1009B4D34 /* ShipinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShipinViewController.m; sourceTree = "<group>"; };
+		82ED5D3E1C2AA2E1009B4D34 /* HunTuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunTuCollectionViewCell.h; sourceTree = "<group>"; };
+		82ED5D3F1C2AA2E1009B4D34 /* HunTuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunTuCollectionViewCell.m; sourceTree = "<group>"; };
+		82ED5D401C2AA2E1009B4D34 /* HunTuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HunTuCollectionViewCell.xib; sourceTree = "<group>"; };
+		82ED5D411C2AA2E1009B4D34 /* HunTuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunTuViewController.h; sourceTree = "<group>"; };
+		82ED5D421C2AA2E1009B4D34 /* HunTuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunTuViewController.m; sourceTree = "<group>"; };
+		82ED5D441C2AA2E1009B4D34 /* HunJiaSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunJiaSearchViewController.h; sourceTree = "<group>"; };
+		82ED5D451C2AA2E1009B4D34 /* HunJiaSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunJiaSearchViewController.m; sourceTree = "<group>"; };
+		82ED5D471C2AA2E1009B4D34 /* BigPhotopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigPhotopViewController.h; sourceTree = "<group>"; };
+		82ED5D481C2AA2E1009B4D34 /* BigPhotopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigPhotopViewController.m; sourceTree = "<group>"; };
+		82ED5D491C2AA2E1009B4D34 /* BPhotoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPhotoListViewController.h; sourceTree = "<group>"; };
+		82ED5D4A1C2AA2E1009B4D34 /* BPhotoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPhotoListViewController.m; sourceTree = "<group>"; };
+		82ED5D4B1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunliLingGanCollectionViewCell.h; sourceTree = "<group>"; };
+		82ED5D4C1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunliLingGanCollectionViewCell.m; sourceTree = "<group>"; };
+		82ED5D4D1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HunliLingGanCollectionViewCell.xib; sourceTree = "<group>"; };
+		82ED5D4E1C2AA2E1009B4D34 /* HunLiLingGanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunLiLingGanViewController.h; sourceTree = "<group>"; };
+		82ED5D4F1C2AA2E1009B4D34 /* HunLiLingGanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunLiLingGanViewController.m; sourceTree = "<group>"; };
+		82ED5D501C2AA2E1009B4D34 /* PhotoListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoListCollectionViewCell.h; sourceTree = "<group>"; };
+		82ED5D511C2AA2E1009B4D34 /* PhotoListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoListCollectionViewCell.m; sourceTree = "<group>"; };
+		82ED5D521C2AA2E1009B4D34 /* PhotoListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoListCollectionViewCell.xib; sourceTree = "<group>"; };
+		82ED5D531C2AA2E1009B4D34 /* HLSPTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSPTableViewCell.h; sourceTree = "<group>"; };
+		82ED5D541C2AA2E1009B4D34 /* HLSPTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSPTableViewCell.m; sourceTree = "<group>"; };
+		82ED5D551C2AA2E1009B4D34 /* HLSPTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLSPTableViewCell.xib; sourceTree = "<group>"; };
+		82ED5D561C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingXuanHunLiTableViewCell.h; sourceTree = "<group>"; };
+		82ED5D571C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JingXuanHunLiTableViewCell.m; sourceTree = "<group>"; };
+		82ED5D581C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JingXuanHunLiTableViewCell.xib; sourceTree = "<group>"; };
+		82ED5D781C2AA32A009B4D34 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		82ED5D791C2AA3A8009B4D34 /* HunliLingGanNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunliLingGanNetwork.h; sourceTree = "<group>"; };
+		82ED5D7A1C2AA3A8009B4D34 /* HunliLingGanNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunliLingGanNetwork.m; sourceTree = "<group>"; };
+		82ED5D7C1C2AA3B9009B4D34 /* FirstNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstNetWork.h; sourceTree = "<group>"; };
+		82ED5D7D1C2AA3B9009B4D34 /* FirstNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstNetWork.m; sourceTree = "<group>"; };
+		82ED5D7F1C2AA3C8009B4D34 /* HunTuNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HunTuNetWork.h; sourceTree = "<group>"; };
+		82ED5D801C2AA3C8009B4D34 /* HunTuNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HunTuNetWork.m; sourceTree = "<group>"; };
+		82ED5D821C2AA424009B4D34 /* FirstViewLocalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewLocalData.h; sourceTree = "<group>"; };
+		82ED5D831C2AA424009B4D34 /* FirstViewLocalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewLocalData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1086,6 +1184,7 @@
 		0C28D9471C279BE50037ABDC = {
 			isa = PBXGroup;
 			children = (
+				82ED5D781C2AA32A009B4D34 /* PrefixHeader.pch */,
 				82ED5CE61C27ADAD009B4D34 /* libsqlite3.dylib */,
 				0C28D9521C279BE60037ABDC /* TeacherAssess */,
 				0C28D96C1C279BE60037ABDC /* TeacherAssessTests */,
@@ -1184,8 +1283,25 @@
 		82ED58251C27A8D1009B4D34 /* FirstViewController */ = {
 			isa = PBXGroup;
 			children = (
+				82ED5D1C1C2AA2E1009B4D34 /* MoreVC */,
+				82ED5D211C2AA2E1009B4D34 /* MeryVC */,
+				82ED5D461C2AA2E1009B4D34 /* MeryDetailVC */,
+				82ED5D531C2AA2E1009B4D34 /* HLSPTableViewCell.h */,
+				82ED5D541C2AA2E1009B4D34 /* HLSPTableViewCell.m */,
+				82ED5D551C2AA2E1009B4D34 /* HLSPTableViewCell.xib */,
+				82ED5D561C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.h */,
+				82ED5D571C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.m */,
+				82ED5D581C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.xib */,
 				82ED58261C27A8D1009B4D34 /* FirstViewController.h */,
 				82ED58271C27A8D1009B4D34 /* FirstViewController.m */,
+				82ED5D791C2AA3A8009B4D34 /* HunliLingGanNetwork.h */,
+				82ED5D7A1C2AA3A8009B4D34 /* HunliLingGanNetwork.m */,
+				82ED5D7C1C2AA3B9009B4D34 /* FirstNetWork.h */,
+				82ED5D7D1C2AA3B9009B4D34 /* FirstNetWork.m */,
+				82ED5D7F1C2AA3C8009B4D34 /* HunTuNetWork.h */,
+				82ED5D801C2AA3C8009B4D34 /* HunTuNetWork.m */,
+				82ED5D821C2AA424009B4D34 /* FirstViewLocalData.h */,
+				82ED5D831C2AA424009B4D34 /* FirstViewLocalData.m */,
 			);
 			path = FirstViewController;
 			sourceTree = "<group>";
@@ -1936,6 +2052,110 @@
 			path = QQ;
 			sourceTree = "<group>";
 		};
+		82ED5D1C1C2AA2E1009B4D34 /* MoreVC */ = {
+			isa = PBXGroup;
+			children = (
+				82ED5D1D1C2AA2E1009B4D34 /* GengDuoJingXuanHunLiViewController.h */,
+				82ED5D1E1C2AA2E1009B4D34 /* GengDuoJingXuanHunLiViewController.m */,
+				82ED5D1F1C2AA2E1009B4D34 /* GengDuoShiPingViewController.h */,
+				82ED5D201C2AA2E1009B4D34 /* GengDuoShiPingViewController.m */,
+			);
+			name = MoreVC;
+			path = "更多页面";
+			sourceTree = "<group>";
+		};
+		82ED5D211C2AA2E1009B4D34 /* MeryVC */ = {
+			isa = PBXGroup;
+			children = (
+				82ED5D221C2AA2E1009B4D34 /* HunJiaDetila */,
+				82ED5D251C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.h */,
+				82ED5D261C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.m */,
+				82ED5D271C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.xib */,
+				82ED5D281C2AA2E1009B4D34 /* HunJiaTableViewCell.h */,
+				82ED5D291C2AA2E1009B4D34 /* HunJiaTableViewCell.m */,
+				82ED5D2A1C2AA2E1009B4D34 /* HunJiaTableViewCell.xib */,
+				82ED5D2B1C2AA2E1009B4D34 /* HunJiaViewController.h */,
+				82ED5D2C1C2AA2E1009B4D34 /* HunJiaViewController.m */,
+				82ED5D2D1C2AA2E1009B4D34 /* HunLiMusicViewController.h */,
+				82ED5D2E1C2AA2E1009B4D34 /* HunLiMusicViewController.m */,
+				82ED5D2F1C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.h */,
+				82ED5D301C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.m */,
+				82ED5D311C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.xib */,
+				82ED5D321C2AA2E1009B4D34 /* JXHunLiViewController.h */,
+				82ED5D331C2AA2E1009B4D34 /* JXHunLiViewController.m */,
+				82ED5D341C2AA2E1009B4D34 /* MusicAndMovie */,
+				82ED5D3D1C2AA2E1009B4D34 /* 婚图 */,
+				82ED5D431C2AA2E1009B4D34 /* 搜索 */,
+			);
+			name = MeryVC;
+			path = "婚嫁";
+			sourceTree = "<group>";
+		};
+		82ED5D221C2AA2E1009B4D34 /* HunJiaDetila */ = {
+			isa = PBXGroup;
+			children = (
+				82ED5D231C2AA2E1009B4D34 /* HunJiaDetilaViewController.h */,
+				82ED5D241C2AA2E1009B4D34 /* HunJiaDetilaViewController.m */,
+			);
+			path = HunJiaDetila;
+			sourceTree = "<group>";
+		};
+		82ED5D341C2AA2E1009B4D34 /* MusicAndMovie */ = {
+			isa = PBXGroup;
+			children = (
+				82ED5D351C2AA2E1009B4D34 /* bofangViewController.h */,
+				82ED5D361C2AA2E1009B4D34 /* bofangViewController.m */,
+				82ED5D371C2AA2E1009B4D34 /* MusicPlayerViewController.h */,
+				82ED5D381C2AA2E1009B4D34 /* MusicPlayerViewController.m */,
+				82ED5D391C2AA2E1009B4D34 /* MusicViewController.h */,
+				82ED5D3A1C2AA2E1009B4D34 /* MusicViewController.m */,
+				82ED5D3B1C2AA2E1009B4D34 /* ShipinViewController.h */,
+				82ED5D3C1C2AA2E1009B4D34 /* ShipinViewController.m */,
+			);
+			path = MusicAndMovie;
+			sourceTree = "<group>";
+		};
+		82ED5D3D1C2AA2E1009B4D34 /* 婚图 */ = {
+			isa = PBXGroup;
+			children = (
+				82ED5D3E1C2AA2E1009B4D34 /* HunTuCollectionViewCell.h */,
+				82ED5D3F1C2AA2E1009B4D34 /* HunTuCollectionViewCell.m */,
+				82ED5D401C2AA2E1009B4D34 /* HunTuCollectionViewCell.xib */,
+				82ED5D411C2AA2E1009B4D34 /* HunTuViewController.h */,
+				82ED5D421C2AA2E1009B4D34 /* HunTuViewController.m */,
+			);
+			path = "婚图";
+			sourceTree = "<group>";
+		};
+		82ED5D431C2AA2E1009B4D34 /* 搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				82ED5D441C2AA2E1009B4D34 /* HunJiaSearchViewController.h */,
+				82ED5D451C2AA2E1009B4D34 /* HunJiaSearchViewController.m */,
+			);
+			path = "搜索";
+			sourceTree = "<group>";
+		};
+		82ED5D461C2AA2E1009B4D34 /* MeryDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				82ED5D471C2AA2E1009B4D34 /* BigPhotopViewController.h */,
+				82ED5D481C2AA2E1009B4D34 /* BigPhotopViewController.m */,
+				82ED5D491C2AA2E1009B4D34 /* BPhotoListViewController.h */,
+				82ED5D4A1C2AA2E1009B4D34 /* BPhotoListViewController.m */,
+				82ED5D4B1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.h */,
+				82ED5D4C1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.m */,
+				82ED5D4D1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.xib */,
+				82ED5D4E1C2AA2E1009B4D34 /* HunLiLingGanViewController.h */,
+				82ED5D4F1C2AA2E1009B4D34 /* HunLiLingGanViewController.m */,
+				82ED5D501C2AA2E1009B4D34 /* PhotoListCollectionViewCell.h */,
+				82ED5D511C2AA2E1009B4D34 /* PhotoListCollectionViewCell.m */,
+				82ED5D521C2AA2E1009B4D34 /* PhotoListCollectionViewCell.xib */,
+			);
+			name = MeryDetailVC;
+			path = "婚礼灵感";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2027,6 +2247,7 @@
 				82ED5B1F1C27AA95009B4D34 /* title_photo.jpg in Resources */,
 				82ED5B261C27AA95009B4D34 /* img_be_exe_1@2x.png in Resources */,
 				82ED5CD11C27AD68009B4D34 /* [p88].png in Resources */,
+				82ED5D5D1C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.xib in Resources */,
 				82ED5CC81C27AD68009B4D34 /* [p7].png in Resources */,
 				82ED5A6D1C27AA95009B4D34 /* btn_dis_ins_backchair@3x.png in Resources */,
 				82ED5A731C27AA95009B4D34 /* btn_dis_ins_card@3x.png in Resources */,
@@ -2061,6 +2282,7 @@
 				82ED5CCD1C27AD68009B4D34 /* [p84].png in Resources */,
 				82ED5A8D1C27AA95009B4D34 /* btn_dis_ins_seat@3x.png in Resources */,
 				0CE9C1641C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.xib in Resources */,
+				82ED5D701C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.xib in Resources */,
 				82ED5C9C1C27AD68009B4D34 /* [p39].png in Resources */,
 				82ED5CB11C27AD68009B4D34 /* [p58].png in Resources */,
 				82ED5B161C27AA95009B4D34 /* hunyan_white40@2x.png in Resources */,
@@ -2113,6 +2335,7 @@
 				82ED5B391C27AA95009B4D34 /* img_schedule_1@3x.png in Resources */,
 				82ED5AAA1C27AA95009B4D34 /* btn_dis_ser_circum@2x.png in Resources */,
 				82ED5C9A1C27AD68009B4D34 /* [p37].png in Resources */,
+				82ED5D6A1C2AA2E1009B4D34 /* HunTuCollectionViewCell.xib in Resources */,
 				82ED5CA01C27AD68009B4D34 /* [p42].png in Resources */,
 				82ED5C571C27AD68009B4D34 /* JHRefresh.bundle in Resources */,
 				82ED5B221C27AA95009B4D34 /* choose_off.png in Resources */,
@@ -2156,6 +2379,7 @@
 				82ED5CBC1C27AD68009B4D34 /* [p68].png in Resources */,
 				82ED5B4C1C27AA95009B4D34 /* operationteam5.png in Resources */,
 				82ED5A551C27AA95009B4D34 /* usr_product@2x.png in Resources */,
+				82ED5D631C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.xib in Resources */,
 				82ED5CA81C27AD68009B4D34 /* [p4].png in Resources */,
 				82ED5C941C27AD68009B4D34 /* [p30].png in Resources */,
 				82ED5B331C27AA95009B4D34 /* img_be_ser_gift@2x.png in Resources */,
@@ -2197,6 +2421,7 @@
 				82ED5AD01C27AA95009B4D34 /* play1480.jpg in Resources */,
 				82ED5AF21C27AA95009B4D34 /* btn_tab_mine_n.png in Resources */,
 				82ED5A471C27AA95009B4D34 /* cellarrow@3x.png in Resources */,
+				82ED5D731C2AA2E1009B4D34 /* PhotoListCollectionViewCell.xib in Resources */,
 				82ED5A521C27AA95009B4D34 /* Use_shouce_photo.jpg in Resources */,
 				82ED5A841C27AA95009B4D34 /* btn_dis_ins_pavilion@2x.png in Resources */,
 				82ED5A7F1C27AA95009B4D34 /* btn_dis_ins_handwear@3x.png in Resources */,
@@ -2315,6 +2540,7 @@
 				82ED5AB51C27AA95009B4D34 /* btn_dis_ser_gift@3x.png in Resources */,
 				82ED5AA81C27AA95009B4D34 /* btn_dis_ser_car@2x.png in Resources */,
 				82ED5AAE1C27AA95009B4D34 /* btn_dis_ser_dressfilm@2x.png in Resources */,
+				82ED5D751C2AA2E1009B4D34 /* HLSPTableViewCell.xib in Resources */,
 				82ED5CC01C27AD68009B4D34 /* [p72].png in Resources */,
 				82ED5A3A1C27AA95009B4D34 /* btn_dis_next@2x.png in Resources */,
 				82ED5A7B1C27AA95009B4D34 /* btn_dis_ins_groomcostume@3x.png in Resources */,
@@ -2323,6 +2549,7 @@
 				82ED5A981C27AA95009B4D34 /* btn_dis_ins_weddingdress@2x.png in Resources */,
 				82ED5A951C27AA95009B4D34 /* btn_dis_ins_takingphotos@3x.png in Resources */,
 				82ED5AE41C27AA95009B4D34 /* btn_tab_bbs_s@2x.png in Resources */,
+				82ED5D5F1C2AA2E1009B4D34 /* HunJiaTableViewCell.xib in Resources */,
 				82ED5A381C27AA95009B4D34 /* cellbtn2.png in Resources */,
 				82ED5AE01C27AA95009B4D34 /* btn_tab_bbs_n.png in Resources */,
 				82ED5A531C27AA95009B4D34 /* usr_article@2x.png in Resources */,
@@ -2337,6 +2564,7 @@
 				82ED5AEE1C27AA95009B4D34 /* btn_tab_found_n@3x.png in Resources */,
 				82ED5A591C27AA95009B4D34 /* member_gray.png in Resources */,
 				82ED5A581C27AA95009B4D34 /* member_01.png in Resources */,
+				82ED5D771C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.xib in Resources */,
 				82ED5AEC1C27AA95009B4D34 /* btn_tab_found_n.png in Resources */,
 				82ED5ACA1C27AA95009B4D34 /* mastercell_icon@2x.png in Resources */,
 				82ED5B4B1C27AA95009B4D34 /* operationteam4.png in Resources */,
@@ -2455,21 +2683,28 @@
 				82ED5C591C27AD68009B4D34 /* JHRefreshConfig.m in Sources */,
 				82ED5C561C27AD68009B4D34 /* JHRefreshCommonAniView.m in Sources */,
 				82ED5C411C27AD68009B4D34 /* AFURLConnectionOperation.m in Sources */,
+				82ED5D621C2AA2E1009B4D34 /* JxHunLiFirstTableViewCell.m in Sources */,
+				82ED5D6E1C2AA2E1009B4D34 /* BPhotoListViewController.m in Sources */,
+				82ED5D5A1C2AA2E1009B4D34 /* GengDuoShiPingViewController.m in Sources */,
 				82ED5C3C1C27AD68009B4D34 /* AFHTTPRequestOperation.m in Sources */,
 				82ED5CE11C27AD68009B4D34 /* TQRichTextBaseRun.m in Sources */,
 				82ED59061C27A8D1009B4D34 /* ThirdViewController.m in Sources */,
 				82ED5CE41C27AD68009B4D34 /* TQRichTextURLRun.m in Sources */,
 				0CE9C1671C2A3DCD0050E61F /* ThirdGeXiaoZuDetilaViewController.m in Sources */,
 				82ED5C5D1C27AD68009B4D34 /* UIScrollView+JHRefresh.m in Sources */,
+				82ED5D691C2AA2E1009B4D34 /* HunTuCollectionViewCell.m in Sources */,
+				82ED5D721C2AA2E1009B4D34 /* PhotoListCollectionViewCell.m in Sources */,
 				82ED5C621C27AD68009B4D34 /* SDWebImageDecoder.m in Sources */,
 				82ED5C611C27AD68009B4D34 /* SDImageCache.m in Sources */,
 				82ED5CE21C27AD68009B4D34 /* TQRichTextEmojiRun.m in Sources */,
+				82ED5D641C2AA2E1009B4D34 /* JXHunLiViewController.m in Sources */,
 				82ED5C501C27AD68009B4D34 /* FMDatabasePool.m in Sources */,
 				82ED5C511C27AD68009B4D34 /* FMDatabaseQueue.m in Sources */,
 				82ED5C3D1C27AD68009B4D34 /* AFHTTPRequestOperationManager.m in Sources */,
 				82ED5C641C27AD68009B4D34 /* SDWebImageManager.m in Sources */,
 				82ED5C5A1C27AD68009B4D34 /* JHRefreshFooterView.m in Sources */,
 				82ED5C4A1C27AD68009B4D34 /* UIImageView+AFNetworking.m in Sources */,
+				82ED5D601C2AA2E1009B4D34 /* HunJiaViewController.m in Sources */,
 				82ED5C581C27AD68009B4D34 /* JHRefreshBaseView.m in Sources */,
 				82ED5C551C27AD68009B4D34 /* JHRefreshAniBaseView.m in Sources */,
 				0C28D9871C2801470037ABDC /* ThirdNetWork.m in Sources */,
@@ -2479,12 +2714,16 @@
 				82ED5C5C1C27AD68009B4D34 /* UIScrollView+JHExtension.m in Sources */,
 				0C28D99E1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m in Sources */,
 				82ED5C4D1C27AD68009B4D34 /* UIWebView+AFNetworking.m in Sources */,
+				82ED5D761C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.m in Sources */,
 				82ED5C521C27AD68009B4D34 /* FMResultSet.m in Sources */,
+				82ED5D681C2AA2E1009B4D34 /* ShipinViewController.m in Sources */,
+				82ED5D6B1C2AA2E1009B4D34 /* HunTuViewController.m in Sources */,
 				82ED58231C27A81C009B4D34 /* MainTabBarViewController.m in Sources */,
 				82ED5CE31C27AD68009B4D34 /* TQRichTextImageRun.m in Sources */,
 				0C28D99A1C28041E0037ABDC /* thirdLocalData.m in Sources */,
 				82ED5C3E1C27AD68009B4D34 /* AFHTTPSessionManager.m in Sources */,
 				82ED5C481C27AD68009B4D34 /* UIAlertView+AFNetworking.m in Sources */,
+				82ED5D611C2AA2E1009B4D34 /* HunLiMusicViewController.m in Sources */,
 				82ED5C541C27AD68009B4D34 /* JHRefreshAmazingAniView.m in Sources */,
 				0C28D9941C2801D50037ABDC /* ScrollViewDemo.m in Sources */,
 				82ED5C601C27AD68009B4D34 /* README.md in Sources */,
@@ -2492,17 +2731,29 @@
 				82ED5C451C27AD68009B4D34 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				0C28D9911C2801B00037ABDC /* MBProgressHUD.m in Sources */,
 				82ED58BA1C27A8D1009B4D34 /* FirstViewController.m in Sources */,
+				82ED5D651C2AA2E1009B4D34 /* bofangViewController.m in Sources */,
 				82ED5C671C27AD68009B4D34 /* UIImageView+WebCache.m in Sources */,
+				82ED5D5B1C2AA2E1009B4D34 /* HunJiaDetilaViewController.m in Sources */,
 				0C28D98F1C2801B00037ABDC /* MBProgressHUD+MJ.m in Sources */,
 				0CE9C15E1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m in Sources */,
 				82ED58EC1C27A8D1009B4D34 /* FouthViewController.m in Sources */,
+				82ED5D7E1C2AA3B9009B4D34 /* FirstNetWork.m in Sources */,
 				0C28D9591C279BE60037ABDC /* AppDelegate.m in Sources */,
+				82ED5D811C2AA3C8009B4D34 /* HunTuNetWork.m in Sources */,
+				82ED5D591C2AA2E1009B4D34 /* GengDuoJingXuanHunLiViewController.m in Sources */,
+				82ED5D6F1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.m in Sources */,
 				82ED5C651C27AD68009B4D34 /* SDWebImagePrefetcher.m in Sources */,
+				82ED5D841C2AA424009B4D34 /* FirstViewLocalData.m in Sources */,
+				82ED5D6D1C2AA2E1009B4D34 /* BigPhotopViewController.m in Sources */,
 				82ED5C401C27AD68009B4D34 /* AFSecurityPolicy.m in Sources */,
 				82ED5C4B1C27AD68009B4D34 /* UIProgressView+AFNetworking.m in Sources */,
+				82ED5D711C2AA2E1009B4D34 /* HunLiLingGanViewController.m in Sources */,
+				82ED5D671C2AA2E1009B4D34 /* MusicViewController.m in Sources */,
 				82ED5C5E1C27AD68009B4D34 /* UIView+JHExtension.m in Sources */,
 				82ED5C4F1C27AD68009B4D34 /* FMDatabaseAdditions.m in Sources */,
 				82ED5C531C27AD68009B4D34 /* MyFMDataBase.m in Sources */,
+				82ED5D6C1C2AA2E1009B4D34 /* HunJiaSearchViewController.m in Sources */,
+				82ED5D7B1C2AA3A8009B4D34 /* HunliLingGanNetwork.m in Sources */,
 				82ED5C461C27AD68009B4D34 /* README.md in Sources */,
 				0CE9C1631C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.m in Sources */,
 				82ED5C491C27AD68009B4D34 /* UIButton+AFNetworking.m in Sources */,
@@ -2510,8 +2761,12 @@
 				82ED5C421C27AD68009B4D34 /* AFURLRequestSerialization.m in Sources */,
 				0C28D9971C2803E50037ABDC /* ThirdGeXiaoZuViewController.m in Sources */,
 				82ED5C3F1C27AD68009B4D34 /* AFNetworkReachabilityManager.m in Sources */,
+				82ED5D741C2AA2E1009B4D34 /* HLSPTableViewCell.m in Sources */,
+				82ED5D661C2AA2E1009B4D34 /* MusicPlayerViewController.m in Sources */,
+				82ED5D5C1C2AA2E1009B4D34 /* HunJiaMusicCollectionViewCell.m in Sources */,
 				82ED5C4C1C27AD68009B4D34 /* UIRefreshControl+AFNetworking.m in Sources */,
 				82ED5C431C27AD68009B4D34 /* AFURLResponseSerialization.m in Sources */,
+				82ED5D5E1C2AA2E1009B4D34 /* HunJiaTableViewCell.m in Sources */,
 				82ED5C5B1C27AD68009B4D34 /* JHRefreshHeaderView.m in Sources */,
 				82ED59091C27A96E009B4D34 /* FiveViewController.m in Sources */,
 			);
@@ -2635,6 +2890,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = TeacherAssess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2645,6 +2901,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = TeacherAssess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

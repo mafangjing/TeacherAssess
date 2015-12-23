@@ -2,7 +2,7 @@
 //  ThirdGeXiaoZuViewController.h
 //  Wedding
 //
-//  Created by qianfeng on 15-12-22.
+//  Created by hjh on 15-12-22.
 //  Copyright (c) 2015年 ma. All rights reserved.
 //
 

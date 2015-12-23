@@ -1,0 +1,168 @@
+//
+//  PrefixHeader.pch
+//  Wedding
+//
+//  Created by hjh on 15-12-23.
+//  Copyright (c) 2015年 hjh. All rights reserved.
+//
+
+#ifndef Wedding_PrefixHeader_pch
+#define Wedding_PrefixHeader_pch
+
+
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "AFNetworking.h"
+#import "JHRefresh.h"
+#import "MBProgressHUD+MJ.h"
+
+
+
+#define FirstJingXuanUrl @"http://data.halobear.cn/mapi/index.php?act=choicenav&mver=3&region=0"
+
+
+#define AdURl @"http://data.es-cloud.net/appdata/Advertising_GetModel?Id=0&AppId=e13090517273318"
+
+//#define GengDuoUrl @"http://lscy4.caeac.com.cn/api/product_fenlei.php?appkey=752&type=news"
+
+#define GenDuodetilaUrl @"http://lscy4.caeac.com.cn/api/news.php"
+
+
+#define ShiPingDetileUrl @"http://data.halobear.cn/mapi/index.php"
+
+#define GengDuoShiPingUrl @"http://data.halobear.cn/mapi/index.php"
+
+#define GengDuoHunLiUrl @"http://data.halobear.cn/mapi/index.php"
+
+
+#define HunJiaDetilaUrl @"http://lscy4.caeac.com.cn/api/news.php"
+
+#define musicListUrl @"http://daren.xishiwang.com/api/Wedding/MusicTypeList?resolution=300_300&pageflag=0&lastid=0"
+
+#define MusicDetilaUrl @"http://lscy4.caeac.com.cn/api/news.php"
+
+#define musicDetilaListUrl @"http://daren.xishiwang.com/api/Wedding/MusicList"
+
+#define SecondURl @"http://rm.app.hongniujia.com/json_rm.php?action=list&ver=10&page=0&category=hunlian&category2=&pageSize=24&appCookie=channel_91%20version_6.12%20oid_7B682FD1-F835-441B-A86E-3B8CE367BB42%20package_com.aslibra.wt.hunlian%20platform_iphone%20ver_8.3%20jb_0%20t1_1444133781%20md5_40%20t_1443948250&width=320&keyword="
+
+
+#define SecondListDataUrl @"http://www.hunliji.com/products.json"
+
+
+
+
+#define TaoLunZuUrl @"http://circle.halobear.cn/api/mobile/index.php?module=forumnav&version=4&adcode=653000&mver=3"
+
+#define ThirdADUrl @"http://data.halobear.cn/mapi/index.php?act=banner&cate=1&adcode=(null)&mver=3"
+
+#define ThirdDetilaUrl @"http://circle.halobear.cn/api/mobile/index.php?module=forumdisplay&version=3"
+
+
+#define thirdDetilaPingLunUrl @"http://circle.halobear.cn/api/mobile/index.php?module=viewthread&charset=utf-8&image=1&ppp=10&version=3&total=1"
+
+
+
+#define CanPinDataUrl @"http://lscy4.caeac.com.cn/api/product.php"
+
+#define CanPinDetilaDataUrl @"http://lscy4.caeac.com.cn/api/product.php"
+
+
+
+#define SearchUrl @"http://lscy4.caeac.com.cn/api/partner.php"
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+//******************************************
+#pragma mark ==== 婚礼灵感
+
+#define HunliLingGanTuArray @[@"btn_dis_ins_handflower.png",@"btn_dis_ins_tableflower.png",@"btn_dis_ins_road.png",@"btn_dis_ins_stage.png",@"btn_dis_ins_takingphotos.png",@"btn_dis_ins_meting.png",@"btn_dis_ins_receptiontable.png",@"btn_dis_ins_door.png",@"btn_dis_ins_pavilion.png",@"btn_dis_ins_meeting.png",@"btn_dis_ins_seat.png",@"btn_dis_ins_backchair.png",@"btn_dis_ins_weddingmeats.png",@"btn_dis_ins_brooch.png",@"btn_dis_ins_carflower.png",@"btn_dis_ins_card.png",@"btn_dis_ins_weddingcandies.png",@"btn_dis_ins_gift.png",@"btn_dis_ins_cake.png",@"btn_dis_ins_weddingdress.png",@"btn_dis_ins_groomcostume.png",@"btn_dis_ins_shoes.png",@"btn_dis_ins_ring.png",@"btn_dis_ins_handwear.png"]
+
+#define HunliLingGanNameArray @[@"新娘捧花",@"婚礼桌花",@"婚礼路引",@"舞台背景",@"拍照背景",@"迎宾展示",@"签到台饰",@"婚礼拱门",@"仪礼门亭",@"迎宾牌示",@"席位图示",@"椅背装饰",@"甜品台饰",@"婚礼胸花",@"婚礼车花",@"婚礼请柬",@"婚礼喜糖",@"婚礼回礼",@"婚礼蛋糕",@"新娘婚纱",@"新郎礼服",@"新娘婚鞋",@"婚礼戒指",@"新娘头饰"]
+
+#define HunliLingGanCountArray @[@"1383",@"1050",@"387",@"745",@"1000",@"1458",@"487",@"427",@"440",@"570",@"229",@"727",@"1426",@"414",@"167",@"1071",@"416",@"160",@"1555",@"859",@"30",@"448",@"314",@"866"]
+
+
+
+#define HunliLingGanUrl @"http://data.halobear.cn/mapi/index.php"
+
+
+#define HUnliLingGanPhotoListUrl @"http://data.halobear.cn/mapi/index.php"
+
+
+
+#define HunTuDataUrl @"http://daren.xishiwang.com/api/Wedding/ImagesSearchList"
+
+
+//******************************************
+#pragma mark --- 登录  注册
+
+
+//登录
+#define DengLuUrl  @"http://lscy4.caeac.com.cn/api/login.php"
+
+//退出
+
+#define TuiChuUrl @"http://lscy4.caeac.com.cn/api/login.php"
+
+
+//注册
+#define ZhuCeUrl @"http://lscy4.caeac.com.cn/api/register.php"
+
+//******************************************
+
+#pragma mark === DataBase
+
+#import "MyFMDataBase.h"
+
+
+//数据库名
+#define WeddingUseMessageDataBase @"UseMessageDataBase"
+#define WeddingCollectDataBase @"WeddingCollectDataBase"
+
+
+//用户信息表单名和属性
+#define UseMesageDataBaseTable @"UseMesage"
+#define UseMesageDataBaseTableArray @[@"name",@"uname",@"tel",@"token"]
+
+//收藏信息表单名和属性
+
+#define DianPuShouCangTable @"DianPuShouCangTable"
+#define DianPuShouCangTableArray @[@"",@"",@"",@"",@""]
+
+
+#define ShangPinShouCangTable @"ShangPinShouCangTable"
+#define ShangPinShouCangTableArray @[@"",@"",@"",@"",@""]
+
+#define GouWuCheTable @"GouWuCheTable"
+#define GouWuCheTableArray @[@"",@"",@"",@"",@""]
+
+#define DizhiGuanLiTable @"DizhiGuanLiTable"
+#define DizhiGuanLiTableArray @[@"",@"",@"",@"",@""]
+
+
+//页面本地缓存
+#define YeMianLocallDataBase @"YeMianLocallDataBase"
+
+#define Fiest_AdMessageData @"AdMessage"
+#define Fiest_AdMessageDataArray @[@"AdUrl"]
+
+
+#define SecondLocalDataTable @"SecondLocalDataTable"
+#define SecondLocalDataTableArray @[@"bkg_path",@"cover_path",@"desc",@"id1",@"title"]
+
+
+
+#define ThirdLocalDataTable @"ThirdLocalDataTable"
+#define ThirdLocalDataTableArray @[@"description",@"fid",@"name",@"todayposts"]
+
+
+#define FouthLocalDataTable @"FouthLocalDataTable"
+#define FouthLocalDataTableArray @[@"address",@"id1",@"level",@"logo",@"name",@"operate"]
+
+#endif
