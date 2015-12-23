@@ -3,11 +3,11 @@
 //  Wedding
 //
 //  Created by qianfeng on 15-12-21.
-//  Copyright (c) 2015年 qianfeng. All rights reserved.
+//  Copyright (c) 2015年 ma. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-
+#import "AFNetworking.h"
 @interface ThirdViewController : UIViewController
 
 @end

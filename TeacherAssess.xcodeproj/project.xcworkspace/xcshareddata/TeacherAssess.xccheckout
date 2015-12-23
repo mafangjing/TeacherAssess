@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>977FCF35-89FB-423A-9BE3-49AAA002D726</string>
+	<string>AC8A9704-FF48-4536-966B-49EE5729AD46</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TeacherAssess</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -13,7 +13,7 @@
 		<key>BD89BE541E5EA864A4C1E7F45799ECC986DA06E7</key>
 		<string>https://github.com/mafangjing/TeacherAssess.git</string>
 		<key>b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760</key>
-		<string>http://yangj.5166.info/1000phone/iOS/trunk/iOS/Network/douban/codes/00-%25E7%25BD%2591%25E7%25BB%259C0-JSON%25E8%25A7%25A3%25E6%259E%2590/0-DoubanBoo/SDWebImage</string>
+		<string>http://yangj.5166.info/1000phone/iOS/trunk/iOS/Network/douban/codes/00-%252525E7%252525BD%25252591%252525E7%252525BB%2525259C0-JSON%252525E8%252525A7%252525A3%252525E6%2525259E%25252590/0-DoubanBoo/SDWebImage</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TeacherAssess.xcodeproj</string>
@@ -22,7 +22,7 @@
 		<key>BD89BE541E5EA864A4C1E7F45799ECC986DA06E7</key>
 		<string>../..</string>
 		<key>b3ea32e5-604c-4fca-b5db-6ae888a3e4b3++5760</key>
-		<string>../..TeacherAssess/Basic/SDWebImage/</string>
+		<string>../..TeacherAssess/Basic/SDWebImage</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>

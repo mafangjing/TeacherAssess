@@ -13,6 +13,22 @@
 		0C28D9611C279BE60037ABDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C28D9601C279BE60037ABDC /* Images.xcassets */; };
 		0C28D9641C279BE60037ABDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C28D9621C279BE60037ABDC /* LaunchScreen.xib */; };
 		0C28D9701C279BE60037ABDC /* TeacherAssessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D96F1C279BE60037ABDC /* TeacherAssessTests.m */; };
+		0C28D9871C2801470037ABDC /* ThirdNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D9861C2801470037ABDC /* ThirdNetWork.m */; };
+		0C28D98F1C2801B00037ABDC /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D98B1C2801B00037ABDC /* MBProgressHUD+MJ.m */; };
+		0C28D9901C2801B00037ABDC /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C28D98C1C2801B00037ABDC /* MBProgressHUD.bundle */; };
+		0C28D9911C2801B00037ABDC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D98E1C2801B00037ABDC /* MBProgressHUD.m */; };
+		0C28D9941C2801D50037ABDC /* ScrollViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D9931C2801D50037ABDC /* ScrollViewDemo.m */; };
+		0C28D9971C2803E50037ABDC /* ThirdGeXiaoZuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D9961C2803E50037ABDC /* ThirdGeXiaoZuViewController.m */; };
+		0C28D99A1C28041E0037ABDC /* thirdLocalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D9991C28041E0037ABDC /* thirdLocalData.m */; };
+		0C28D99E1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D99C1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m */; };
+		0C28D99F1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C28D99D1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib */; };
+		0CE9C15E1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9C15C1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m */; };
+		0CE9C15F1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE9C15D1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.xib */; };
+		0CE9C1631C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9C1611C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.m */; };
+		0CE9C1641C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE9C1621C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.xib */; };
+		0CE9C1671C2A3DCD0050E61F /* ThirdGeXiaoZuDetilaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9C1661C2A3DCD0050E61F /* ThirdGeXiaoZuDetilaViewController.m */; };
+		0CE9C16B1C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9C1691C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.m */; };
+		0CE9C16C1C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE9C16A1C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.xib */; };
 		82ED58231C27A81C009B4D34 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED58221C27A81C009B4D34 /* MainTabBarViewController.m */; };
 		82ED58BA1C27A8D1009B4D34 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED58271C27A8D1009B4D34 /* FirstViewController.m */; };
 		82ED58EC1C27A8D1009B4D34 /* FouthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED58891C27A8D1009B4D34 /* FouthViewController.m */; };
@@ -498,6 +514,33 @@
 		0C28D9691C279BE60037ABDC /* TeacherAssessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherAssessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C28D96E1C279BE60037ABDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C28D96F1C279BE60037ABDC /* TeacherAssessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeacherAssessTests.m; sourceTree = "<group>"; };
+		0C28D9851C2801470037ABDC /* ThirdNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdNetWork.h; sourceTree = "<group>"; };
+		0C28D9861C2801470037ABDC /* ThirdNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdNetWork.m; sourceTree = "<group>"; };
+		0C28D98A1C2801B00037ABDC /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		0C28D98B1C2801B00037ABDC /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		0C28D98C1C2801B00037ABDC /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		0C28D98D1C2801B00037ABDC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0C28D98E1C2801B00037ABDC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0C28D9921C2801D50037ABDC /* ScrollViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewDemo.h; sourceTree = "<group>"; };
+		0C28D9931C2801D50037ABDC /* ScrollViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewDemo.m; sourceTree = "<group>"; };
+		0C28D9951C2803E50037ABDC /* ThirdGeXiaoZuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdGeXiaoZuViewController.h; sourceTree = "<group>"; };
+		0C28D9961C2803E50037ABDC /* ThirdGeXiaoZuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdGeXiaoZuViewController.m; sourceTree = "<group>"; };
+		0C28D9981C28041E0037ABDC /* thirdLocalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdLocalData.h; sourceTree = "<group>"; };
+		0C28D9991C28041E0037ABDC /* thirdLocalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdLocalData.m; sourceTree = "<group>"; };
+		0C28D99B1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdDetilafirstTableViewCell.h; path = ../SecondViewController/ThirdDetilafirstTableViewCell.h; sourceTree = "<group>"; };
+		0C28D99C1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdDetilafirstTableViewCell.m; path = ../SecondViewController/ThirdDetilafirstTableViewCell.m; sourceTree = "<group>"; };
+		0C28D99D1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThirdDetilafirstTableViewCell.xib; path = ../SecondViewController/ThirdDetilafirstTableViewCell.xib; sourceTree = "<group>"; };
+		0CE9C15B1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdDetilaFirstCellTableViewCell.h; sourceTree = "<group>"; };
+		0CE9C15C1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdDetilaFirstCellTableViewCell.m; sourceTree = "<group>"; };
+		0CE9C15D1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdDetilaFirstCellTableViewCell.xib; sourceTree = "<group>"; };
+		0CE9C1601C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdDetilaScondCellTableViewCell.h; sourceTree = "<group>"; };
+		0CE9C1611C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdDetilaScondCellTableViewCell.m; sourceTree = "<group>"; };
+		0CE9C1621C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdDetilaScondCellTableViewCell.xib; sourceTree = "<group>"; };
+		0CE9C1651C2A3DCD0050E61F /* ThirdGeXiaoZuDetilaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdGeXiaoZuDetilaViewController.h; sourceTree = "<group>"; };
+		0CE9C1661C2A3DCD0050E61F /* ThirdGeXiaoZuDetilaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdGeXiaoZuDetilaViewController.m; sourceTree = "<group>"; };
+		0CE9C1681C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdDetilaSecondTableViewCell.h; sourceTree = "<group>"; };
+		0CE9C1691C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdDetilaSecondTableViewCell.m; sourceTree = "<group>"; };
+		0CE9C16A1C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdDetilaSecondTableViewCell.xib; sourceTree = "<group>"; };
 		82ED58211C27A81C009B4D34 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		82ED58221C27A81C009B4D34 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
 		82ED58261C27A8D1009B4D34 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -1103,9 +1146,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0C28D9881C28019C0037ABDC /* Uints */ = {
+			isa = PBXGroup;
+			children = (
+				0C28D9891C2801B00037ABDC /* MBProgressHUD */,
+				0C28D9921C2801D50037ABDC /* ScrollViewDemo.h */,
+				0C28D9931C2801D50037ABDC /* ScrollViewDemo.m */,
+			);
+			name = Uints;
+			sourceTree = "<group>";
+		};
+		0C28D9891C2801B00037ABDC /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0C28D98A1C2801B00037ABDC /* MBProgressHUD+MJ.h */,
+				0C28D98B1C2801B00037ABDC /* MBProgressHUD+MJ.m */,
+				0C28D98C1C2801B00037ABDC /* MBProgressHUD.bundle */,
+				0C28D98D1C2801B00037ABDC /* MBProgressHUD.h */,
+				0C28D98E1C2801B00037ABDC /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		82ED58241C27A8D1009B4D34 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				0C28D9881C28019C0037ABDC /* Uints */,
 				82ED58251C27A8D1009B4D34 /* FirstViewController */,
 				82ED58651C27A8D1009B4D34 /* FiveViewController */,
 				82ED587E1C27A8D1009B4D34 /* FouthViewController */,
@@ -1154,6 +1220,26 @@
 		82ED58A71C27A8D1009B4D34 /* ThirdViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0CE9C1681C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.h */,
+				0CE9C1691C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.m */,
+				0CE9C16A1C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.xib */,
+				0CE9C1651C2A3DCD0050E61F /* ThirdGeXiaoZuDetilaViewController.h */,
+				0CE9C1661C2A3DCD0050E61F /* ThirdGeXiaoZuDetilaViewController.m */,
+				0CE9C1601C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.h */,
+				0CE9C1611C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.m */,
+				0CE9C1621C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.xib */,
+				0CE9C15B1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.h */,
+				0CE9C15C1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m */,
+				0CE9C15D1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.xib */,
+				0C28D99B1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.h */,
+				0C28D99C1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m */,
+				0C28D99D1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib */,
+				0C28D9981C28041E0037ABDC /* thirdLocalData.h */,
+				0C28D9991C28041E0037ABDC /* thirdLocalData.m */,
+				0C28D9951C2803E50037ABDC /* ThirdGeXiaoZuViewController.h */,
+				0C28D9961C2803E50037ABDC /* ThirdGeXiaoZuViewController.m */,
+				0C28D9851C2801470037ABDC /* ThirdNetWork.h */,
+				0C28D9861C2801470037ABDC /* ThirdNetWork.m */,
 				82ED58B81C27A8D1009B4D34 /* ThirdViewController.h */,
 				82ED58B91C27A8D1009B4D34 /* ThirdViewController.m */,
 			);
@@ -1974,12 +2060,14 @@
 				82ED5AB01C27AA95009B4D34 /* btn_dis_ser_facial@2x.png in Resources */,
 				82ED5CCD1C27AD68009B4D34 /* [p84].png in Resources */,
 				82ED5A8D1C27AA95009B4D34 /* btn_dis_ins_seat@3x.png in Resources */,
+				0CE9C1641C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.xib in Resources */,
 				82ED5C9C1C27AD68009B4D34 /* [p39].png in Resources */,
 				82ED5CB11C27AD68009B4D34 /* [p58].png in Resources */,
 				82ED5B161C27AA95009B4D34 /* hunyan_white40@2x.png in Resources */,
 				82ED5B101C27AA95009B4D34 /* 6.png in Resources */,
 				82ED5B2E1C27AA95009B4D34 /* img_be_ser_circum@2x.png in Resources */,
 				82ED5B411C27AA95009B4D34 /* img_schedule_date@3x.png in Resources */,
+				0CE9C15F1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.xib in Resources */,
 				82ED5C6C1C27AD68009B4D34 /* keyboard_del_pressed.png in Resources */,
 				82ED5AEA1C27AA95009B4D34 /* btn_tab_best_s@2x.png in Resources */,
 				82ED5AEF1C27AA95009B4D34 /* btn_tab_found_s.png in Resources */,
@@ -2003,6 +2091,7 @@
 				82ED5AB91C27AA95009B4D34 /* btn_dis_ser_plan@3x.png in Resources */,
 				82ED5C8E1C27AD68009B4D34 /* [p25].png in Resources */,
 				82ED5C851C27AD68009B4D34 /* [p17].png in Resources */,
+				0C28D99F1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib in Resources */,
 				82ED5C9E1C27AD68009B4D34 /* [p40].png in Resources */,
 				82ED5CC41C27AD68009B4D34 /* [p76].png in Resources */,
 				82ED5C791C27AD68009B4D34 /* [p105].png in Resources */,
@@ -2018,6 +2107,7 @@
 				82ED5B321C27AA95009B4D34 /* img_be_ser_flower@2x.png in Resources */,
 				82ED5A761C27AA95009B4D34 /* btn_dis_ins_door@2x.png in Resources */,
 				82ED5C711C27AD68009B4D34 /* keyboard_switch@2x.png in Resources */,
+				0CE9C16C1C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.xib in Resources */,
 				82ED5B271C27AA95009B4D34 /* img_be_exe_2@2x.png in Resources */,
 				82ED5B251C27AA95009B4D34 /* choose_on@2x.png in Resources */,
 				82ED5B391C27AA95009B4D34 /* img_schedule_1@3x.png in Resources */,
@@ -2097,6 +2187,7 @@
 				82ED5B4A1C27AA95009B4D34 /* operationteam3.png in Resources */,
 				82ED5B301C27AA95009B4D34 /* img_be_ser_dressfilm@2x.png in Resources */,
 				82ED5B031C27AA95009B4D34 /* tabbar-icon1@2x.png in Resources */,
+				0C28D9901C2801B00037ABDC /* MBProgressHUD.bundle in Resources */,
 				82ED5B1E1C27AA95009B4D34 /* titl_photo.jpg in Resources */,
 				82ED5C7B1C27AD68009B4D34 /* [p107].png in Resources */,
 				82ED5A3C1C27AA95009B4D34 /* btn_dis_nextdeep@2x.png in Resources */,
@@ -2357,6 +2448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE9C16B1C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.m in Sources */,
 				82ED5C661C27AD68009B4D34 /* UIButton+WebCache.m in Sources */,
 				82ED5C631C27AD68009B4D34 /* SDWebImageDownloader.m in Sources */,
 				82ED5C441C27AD68009B4D34 /* AFURLSessionManager.m in Sources */,
@@ -2367,6 +2459,7 @@
 				82ED5CE11C27AD68009B4D34 /* TQRichTextBaseRun.m in Sources */,
 				82ED59061C27A8D1009B4D34 /* ThirdViewController.m in Sources */,
 				82ED5CE41C27AD68009B4D34 /* TQRichTextURLRun.m in Sources */,
+				0CE9C1671C2A3DCD0050E61F /* ThirdGeXiaoZuDetilaViewController.m in Sources */,
 				82ED5C5D1C27AD68009B4D34 /* UIScrollView+JHRefresh.m in Sources */,
 				82ED5C621C27AD68009B4D34 /* SDWebImageDecoder.m in Sources */,
 				82ED5C611C27AD68009B4D34 /* SDImageCache.m in Sources */,
@@ -2379,22 +2472,29 @@
 				82ED5C4A1C27AD68009B4D34 /* UIImageView+AFNetworking.m in Sources */,
 				82ED5C581C27AD68009B4D34 /* JHRefreshBaseView.m in Sources */,
 				82ED5C551C27AD68009B4D34 /* JHRefreshAniBaseView.m in Sources */,
+				0C28D9871C2801470037ABDC /* ThirdNetWork.m in Sources */,
 				82ED5CE51C27AD68009B4D34 /* TQRichTextView.m in Sources */,
 				82ED58F71C27A8D1009B4D34 /* SecondViewController.m in Sources */,
 				82ED5C471C27AD68009B4D34 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				82ED5C5C1C27AD68009B4D34 /* UIScrollView+JHExtension.m in Sources */,
+				0C28D99E1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m in Sources */,
 				82ED5C4D1C27AD68009B4D34 /* UIWebView+AFNetworking.m in Sources */,
 				82ED5C521C27AD68009B4D34 /* FMResultSet.m in Sources */,
 				82ED58231C27A81C009B4D34 /* MainTabBarViewController.m in Sources */,
 				82ED5CE31C27AD68009B4D34 /* TQRichTextImageRun.m in Sources */,
+				0C28D99A1C28041E0037ABDC /* thirdLocalData.m in Sources */,
 				82ED5C3E1C27AD68009B4D34 /* AFHTTPSessionManager.m in Sources */,
 				82ED5C481C27AD68009B4D34 /* UIAlertView+AFNetworking.m in Sources */,
 				82ED5C541C27AD68009B4D34 /* JHRefreshAmazingAniView.m in Sources */,
+				0C28D9941C2801D50037ABDC /* ScrollViewDemo.m in Sources */,
 				82ED5C601C27AD68009B4D34 /* README.md in Sources */,
 				82ED5C4E1C27AD68009B4D34 /* FMDatabase.m in Sources */,
 				82ED5C451C27AD68009B4D34 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				0C28D9911C2801B00037ABDC /* MBProgressHUD.m in Sources */,
 				82ED58BA1C27A8D1009B4D34 /* FirstViewController.m in Sources */,
 				82ED5C671C27AD68009B4D34 /* UIImageView+WebCache.m in Sources */,
+				0C28D98F1C2801B00037ABDC /* MBProgressHUD+MJ.m in Sources */,
+				0CE9C15E1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m in Sources */,
 				82ED58EC1C27A8D1009B4D34 /* FouthViewController.m in Sources */,
 				0C28D9591C279BE60037ABDC /* AppDelegate.m in Sources */,
 				82ED5C651C27AD68009B4D34 /* SDWebImagePrefetcher.m in Sources */,
@@ -2404,9 +2504,11 @@
 				82ED5C4F1C27AD68009B4D34 /* FMDatabaseAdditions.m in Sources */,
 				82ED5C531C27AD68009B4D34 /* MyFMDataBase.m in Sources */,
 				82ED5C461C27AD68009B4D34 /* README.md in Sources */,
+				0CE9C1631C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.m in Sources */,
 				82ED5C491C27AD68009B4D34 /* UIButton+AFNetworking.m in Sources */,
 				0C28D9561C279BE60037ABDC /* main.m in Sources */,
 				82ED5C421C27AD68009B4D34 /* AFURLRequestSerialization.m in Sources */,
+				0C28D9971C2803E50037ABDC /* ThirdGeXiaoZuViewController.m in Sources */,
 				82ED5C3F1C27AD68009B4D34 /* AFNetworkReachabilityManager.m in Sources */,
 				82ED5C4C1C27AD68009B4D34 /* UIRefreshControl+AFNetworking.m in Sources */,
 				82ED5C431C27AD68009B4D34 /* AFURLResponseSerialization.m in Sources */,
