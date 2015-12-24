@@ -2,12 +2,12 @@
 //  ThirdDetilafirstTableViewCell.m
 //  Wedding
 //
-//  Created by qianfeng on 15-10-7.
-//  Copyright (c) 2015年 qianfeng. All rights reserved.
+//  Created by hjh on 15-12-21.
+//  Copyright (c) 2015年 ma. All rights reserved.
 //
 
 #import "ThirdDetilafirstTableViewCell.h"
-
+#import "UIImageView+WebCache.h"
 @implementation ThirdDetilafirstTableViewCell
 
 - (void)awakeFromNib {

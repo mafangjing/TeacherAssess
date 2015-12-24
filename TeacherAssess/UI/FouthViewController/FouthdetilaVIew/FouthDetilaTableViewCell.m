@@ -2,7 +2,7 @@
 //  FouthDetilaTableViewCell.m
 //  Wedding
 //
-//  Created by ma on 15-10-24.
+//  Created by ma on 15-12-24.
 //  Copyright (c) 2015年 ma. All rights reserved.
 //
 

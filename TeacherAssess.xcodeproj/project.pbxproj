@@ -20,8 +20,6 @@
 		0C28D9941C2801D50037ABDC /* ScrollViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D9931C2801D50037ABDC /* ScrollViewDemo.m */; };
 		0C28D9971C2803E50037ABDC /* ThirdGeXiaoZuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D9961C2803E50037ABDC /* ThirdGeXiaoZuViewController.m */; };
 		0C28D99A1C28041E0037ABDC /* thirdLocalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D9991C28041E0037ABDC /* thirdLocalData.m */; };
-		0C28D99E1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28D99C1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m */; };
-		0C28D99F1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C28D99D1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib */; };
 		0CE9C15E1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9C15C1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m */; };
 		0CE9C15F1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE9C15D1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.xib */; };
 		0CE9C1631C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9C1611C2A3D720050E61F /* ThirdDetilaScondCellTableViewCell.m */; };
@@ -60,9 +58,21 @@
 		0CE9C1CA1C2BD7540050E61F /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE9C1BA1C2BD7540050E61F /* libWeChatSDK.a */; };
 		0CE9C1CD1C2BD78E0050E61F /* FouthLocalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9C1CC1C2BD78E0050E61F /* FouthLocalData.m */; };
 		0CE9C1D01C2BD7C80050E61F /* OTCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9C1CF1C2BD7C80050E61F /* OTCover.m */; };
+		82244A221C2BF4880028900A /* ThirdDetilafirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A201C2BF4880028900A /* ThirdDetilafirstTableViewCell.m */; };
+		82244A231C2BF4880028900A /* ThirdDetilafirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82244A211C2BF4880028900A /* ThirdDetilafirstTableViewCell.xib */; };
+		82244A2F1C2BF4AB0028900A /* BuyOnlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A261C2BF4AB0028900A /* BuyOnlineViewController.m */; };
+		82244A301C2BF4AB0028900A /* SecondDetilaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A281C2BF4AB0028900A /* SecondDetilaViewController.m */; };
+		82244A311C2BF4AB0028900A /* SecondShangPingXiangQingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A2A1C2BF4AB0028900A /* SecondShangPingXiangQingViewController.m */; };
+		82244A321C2BF4AB0028900A /* SecondShangPingXiangQingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82244A2B1C2BF4AB0028900A /* SecondShangPingXiangQingViewController.xib */; };
+		82244A331C2BF4AB0028900A /* SecondMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A2D1C2BF4AB0028900A /* SecondMainTableViewCell.m */; };
+		82244A341C2BF4AB0028900A /* SecondMainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82244A2E1C2BF4AB0028900A /* SecondMainTableViewCell.xib */; };
+		82244A371C2BF4D80028900A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A361C2BF4D80028900A /* SecondViewController.m */; };
+		82244A3A1C2BF5050028900A /* SecondVcModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A391C2BF5050028900A /* SecondVcModel.m */; };
+		82244A3D1C2BF5190028900A /* SecondListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A3C1C2BF5190028900A /* SecondListModel.m */; };
+		82244A401C2BF52D0028900A /* SecondNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A3F1C2BF52D0028900A /* SecondNetWork.m */; };
+		82244A431C2BF53F0028900A /* SecondLocalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 82244A421C2BF53F0028900A /* SecondLocalData.m */; };
 		82ED58231C27A81C009B4D34 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED58221C27A81C009B4D34 /* MainTabBarViewController.m */; };
 		82ED58BA1C27A8D1009B4D34 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED58271C27A8D1009B4D34 /* FirstViewController.m */; };
-		82ED58F71C27A8D1009B4D34 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED589E1C27A8D1009B4D34 /* SecondViewController.m */; };
 		82ED59061C27A8D1009B4D34 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED58B91C27A8D1009B4D34 /* ThirdViewController.m */; };
 		82ED59091C27A96E009B4D34 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED59081C27A96E009B4D34 /* FiveViewController.m */; };
 		82ED5A351C27AA95009B4D34 /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED590F1C27AA95009B4D34 /* back_button.png */; };
@@ -592,9 +602,6 @@
 		0C28D9961C2803E50037ABDC /* ThirdGeXiaoZuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdGeXiaoZuViewController.m; sourceTree = "<group>"; };
 		0C28D9981C28041E0037ABDC /* thirdLocalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdLocalData.h; sourceTree = "<group>"; };
 		0C28D9991C28041E0037ABDC /* thirdLocalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdLocalData.m; sourceTree = "<group>"; };
-		0C28D99B1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdDetilafirstTableViewCell.h; path = ../SecondViewController/ThirdDetilafirstTableViewCell.h; sourceTree = "<group>"; };
-		0C28D99C1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdDetilafirstTableViewCell.m; path = ../SecondViewController/ThirdDetilafirstTableViewCell.m; sourceTree = "<group>"; };
-		0C28D99D1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ThirdDetilafirstTableViewCell.xib; path = ../SecondViewController/ThirdDetilafirstTableViewCell.xib; sourceTree = "<group>"; };
 		0CE9C15B1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdDetilaFirstCellTableViewCell.h; sourceTree = "<group>"; };
 		0CE9C15C1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdDetilaFirstCellTableViewCell.m; sourceTree = "<group>"; };
 		0CE9C15D1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdDetilaFirstCellTableViewCell.xib; sourceTree = "<group>"; };
@@ -665,12 +672,33 @@
 		0CE9C1CC1C2BD78E0050E61F /* FouthLocalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FouthLocalData.m; sourceTree = "<group>"; };
 		0CE9C1CE1C2BD7C80050E61F /* OTCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTCover.h; sourceTree = "<group>"; };
 		0CE9C1CF1C2BD7C80050E61F /* OTCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTCover.m; sourceTree = "<group>"; };
+		82244A1F1C2BF4880028900A /* ThirdDetilafirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdDetilafirstTableViewCell.h; sourceTree = "<group>"; };
+		82244A201C2BF4880028900A /* ThirdDetilafirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdDetilafirstTableViewCell.m; sourceTree = "<group>"; };
+		82244A211C2BF4880028900A /* ThirdDetilafirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdDetilafirstTableViewCell.xib; sourceTree = "<group>"; };
+		82244A251C2BF4AB0028900A /* BuyOnlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyOnlineViewController.h; sourceTree = "<group>"; };
+		82244A261C2BF4AB0028900A /* BuyOnlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyOnlineViewController.m; sourceTree = "<group>"; };
+		82244A271C2BF4AB0028900A /* SecondDetilaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetilaViewController.h; sourceTree = "<group>"; };
+		82244A281C2BF4AB0028900A /* SecondDetilaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDetilaViewController.m; sourceTree = "<group>"; };
+		82244A291C2BF4AB0028900A /* SecondShangPingXiangQingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondShangPingXiangQingViewController.h; sourceTree = "<group>"; };
+		82244A2A1C2BF4AB0028900A /* SecondShangPingXiangQingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondShangPingXiangQingViewController.m; sourceTree = "<group>"; };
+		82244A2B1C2BF4AB0028900A /* SecondShangPingXiangQingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondShangPingXiangQingViewController.xib; sourceTree = "<group>"; };
+		82244A2C1C2BF4AB0028900A /* SecondMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondMainTableViewCell.h; sourceTree = "<group>"; };
+		82244A2D1C2BF4AB0028900A /* SecondMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondMainTableViewCell.m; sourceTree = "<group>"; };
+		82244A2E1C2BF4AB0028900A /* SecondMainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondMainTableViewCell.xib; sourceTree = "<group>"; };
+		82244A351C2BF4D80028900A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		82244A361C2BF4D80028900A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		82244A381C2BF5050028900A /* SecondVcModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVcModel.h; sourceTree = "<group>"; };
+		82244A391C2BF5050028900A /* SecondVcModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVcModel.m; sourceTree = "<group>"; };
+		82244A3B1C2BF5190028900A /* SecondListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondListModel.h; sourceTree = "<group>"; };
+		82244A3C1C2BF5190028900A /* SecondListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondListModel.m; sourceTree = "<group>"; };
+		82244A3E1C2BF52D0028900A /* SecondNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondNetWork.h; sourceTree = "<group>"; };
+		82244A3F1C2BF52D0028900A /* SecondNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondNetWork.m; sourceTree = "<group>"; };
+		82244A411C2BF53F0028900A /* SecondLocalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLocalData.h; sourceTree = "<group>"; };
+		82244A421C2BF53F0028900A /* SecondLocalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLocalData.m; sourceTree = "<group>"; };
 		82ED58211C27A81C009B4D34 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		82ED58221C27A81C009B4D34 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
 		82ED58261C27A8D1009B4D34 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		82ED58271C27A8D1009B4D34 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		82ED589D1C27A8D1009B4D34 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		82ED589E1C27A8D1009B4D34 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		82ED58B81C27A8D1009B4D34 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		82ED58B91C27A8D1009B4D34 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		82ED59071C27A96E009B4D34 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
@@ -1472,6 +1500,21 @@
 			path = Wechat;
 			sourceTree = "<group>";
 		};
+		82244A241C2BF4AB0028900A /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				82244A251C2BF4AB0028900A /* BuyOnlineViewController.h */,
+				82244A261C2BF4AB0028900A /* BuyOnlineViewController.m */,
+				82244A271C2BF4AB0028900A /* SecondDetilaViewController.h */,
+				82244A281C2BF4AB0028900A /* SecondDetilaViewController.m */,
+				82244A291C2BF4AB0028900A /* SecondShangPingXiangQingViewController.h */,
+				82244A2A1C2BF4AB0028900A /* SecondShangPingXiangQingViewController.m */,
+				82244A2B1C2BF4AB0028900A /* SecondShangPingXiangQingViewController.xib */,
+			);
+			name = DetailVC;
+			path = "详情页";
+			sourceTree = "<group>";
+		};
 		82ED58241C27A8D1009B4D34 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -1544,8 +1587,20 @@
 		82ED58991C27A8D1009B4D34 /* SecondViewController */ = {
 			isa = PBXGroup;
 			children = (
-				82ED589D1C27A8D1009B4D34 /* SecondViewController.h */,
-				82ED589E1C27A8D1009B4D34 /* SecondViewController.m */,
+				82244A241C2BF4AB0028900A /* DetailVC */,
+				82244A2C1C2BF4AB0028900A /* SecondMainTableViewCell.h */,
+				82244A2D1C2BF4AB0028900A /* SecondMainTableViewCell.m */,
+				82244A351C2BF4D80028900A /* SecondViewController.h */,
+				82244A361C2BF4D80028900A /* SecondViewController.m */,
+				82244A3E1C2BF52D0028900A /* SecondNetWork.h */,
+				82244A3F1C2BF52D0028900A /* SecondNetWork.m */,
+				82244A381C2BF5050028900A /* SecondVcModel.h */,
+				82244A391C2BF5050028900A /* SecondVcModel.m */,
+				82244A3B1C2BF5190028900A /* SecondListModel.h */,
+				82244A3C1C2BF5190028900A /* SecondListModel.m */,
+				82244A411C2BF53F0028900A /* SecondLocalData.h */,
+				82244A421C2BF53F0028900A /* SecondLocalData.m */,
+				82244A2E1C2BF4AB0028900A /* SecondMainTableViewCell.xib */,
 			);
 			path = SecondViewController;
 			sourceTree = "<group>";
@@ -1553,6 +1608,9 @@
 		82ED58A71C27A8D1009B4D34 /* ThirdViewController */ = {
 			isa = PBXGroup;
 			children = (
+				82244A1F1C2BF4880028900A /* ThirdDetilafirstTableViewCell.h */,
+				82244A201C2BF4880028900A /* ThirdDetilafirstTableViewCell.m */,
+				82244A211C2BF4880028900A /* ThirdDetilafirstTableViewCell.xib */,
 				0CE9C1681C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.h */,
 				0CE9C1691C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.m */,
 				0CE9C16A1C2A7A3D0050E61F /* ThirdDetilaSecondTableViewCell.xib */,
@@ -1564,9 +1622,6 @@
 				0CE9C15B1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.h */,
 				0CE9C15C1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m */,
 				0CE9C15D1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.xib */,
-				0C28D99B1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.h */,
-				0C28D99C1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m */,
-				0C28D99D1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib */,
 				0C28D9981C28041E0037ABDC /* thirdLocalData.h */,
 				0C28D9991C28041E0037ABDC /* thirdLocalData.m */,
 				0C28D9951C2803E50037ABDC /* ThirdGeXiaoZuViewController.h */,
@@ -2536,7 +2591,6 @@
 				82ED5AB91C27AA95009B4D34 /* btn_dis_ser_plan@3x.png in Resources */,
 				82ED5C8E1C27AD68009B4D34 /* [p25].png in Resources */,
 				82ED5C851C27AD68009B4D34 /* [p17].png in Resources */,
-				0C28D99F1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.xib in Resources */,
 				82ED5C9E1C27AD68009B4D34 /* [p40].png in Resources */,
 				82ED5CC41C27AD68009B4D34 /* [p76].png in Resources */,
 				82ED5C791C27AD68009B4D34 /* [p105].png in Resources */,
@@ -2608,6 +2662,7 @@
 				0CE9C1C51C2BD7540050E61F /* UMSLoginViewController.xib in Resources */,
 				82ED5CA81C27AD68009B4D34 /* [p4].png in Resources */,
 				82ED5C941C27AD68009B4D34 /* [p30].png in Resources */,
+				82244A341C2BF4AB0028900A /* SecondMainTableViewCell.xib in Resources */,
 				82ED5B331C27AA95009B4D34 /* img_be_ser_gift@2x.png in Resources */,
 				82ED5B3D1C27AA95009B4D34 /* img_schedule_3@3x.png in Resources */,
 				82ED5A631C27AA95009B4D34 /* btn_dis_exe_emcee@3x.png in Resources */,
@@ -2752,6 +2807,7 @@
 				82ED5AFD1C27AA95009B4D34 /* btn_tab_prepare_s@3x.png in Resources */,
 				82ED5A8A1C27AA95009B4D34 /* btn_dis_ins_road@2x.png in Resources */,
 				82ED5CBF1C27AD68009B4D34 /* [p71].png in Resources */,
+				82244A321C2BF4AB0028900A /* SecondShangPingXiangQingViewController.xib in Resources */,
 				82ED5A8E1C27AA95009B4D34 /* btn_dis_ins_shoes@2x.png in Resources */,
 				82ED5A671C27AA95009B4D34 /* btn_dis_exe_makeup@3x.png in Resources */,
 				82ED5A4D1C27AA95009B4D34 /* 16088.jpg in Resources */,
@@ -2791,6 +2847,7 @@
 				82ED5CA11C27AD68009B4D34 /* [p43].png in Resources */,
 				82ED5AE81C27AA95009B4D34 /* btn_tab_best_n@3x.png in Resources */,
 				82ED5B461C27AA95009B4D34 /* img_schedule_plan@2x.png in Resources */,
+				82244A231C2BF4880028900A /* ThirdDetilafirstTableViewCell.xib in Resources */,
 				82ED5AEE1C27AA95009B4D34 /* btn_tab_found_n@3x.png in Resources */,
 				82ED5A591C27AA95009B4D34 /* member_gray.png in Resources */,
 				82ED5A581C27AA95009B4D34 /* member_01.png in Resources */,
@@ -2932,12 +2989,14 @@
 				0CE9C1971C2BD69D0050E61F /* FouthVcModel.m in Sources */,
 				82ED5D721C2AA2E1009B4D34 /* PhotoListCollectionViewCell.m in Sources */,
 				82ED5C621C27AD68009B4D34 /* SDWebImageDecoder.m in Sources */,
+				82244A3A1C2BF5050028900A /* SecondVcModel.m in Sources */,
 				82ED5C611C27AD68009B4D34 /* SDImageCache.m in Sources */,
 				82ED5CE21C27AD68009B4D34 /* TQRichTextEmojiRun.m in Sources */,
 				82ED5D641C2AA2E1009B4D34 /* JXHunLiViewController.m in Sources */,
 				82ED5C501C27AD68009B4D34 /* FMDatabasePool.m in Sources */,
 				82ED5C511C27AD68009B4D34 /* FMDatabaseQueue.m in Sources */,
 				82ED5C3D1C27AD68009B4D34 /* AFHTTPRequestOperationManager.m in Sources */,
+				82244A221C2BF4880028900A /* ThirdDetilafirstTableViewCell.m in Sources */,
 				82ED5C641C27AD68009B4D34 /* SDWebImageManager.m in Sources */,
 				82ED5C5A1C27AD68009B4D34 /* JHRefreshFooterView.m in Sources */,
 				82ED5C4A1C27AD68009B4D34 /* UIImageView+AFNetworking.m in Sources */,
@@ -2947,12 +3006,10 @@
 				0CE9C18F1C2BD61F0050E61F /* xiangXiVcViewController.m in Sources */,
 				0C28D9871C2801470037ABDC /* ThirdNetWork.m in Sources */,
 				82ED5CE51C27AD68009B4D34 /* TQRichTextView.m in Sources */,
-				82ED58F71C27A8D1009B4D34 /* SecondViewController.m in Sources */,
 				82ED5C471C27AD68009B4D34 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				0CE9C1761C2BD6100050E61F /* SearchTableViewCell.m in Sources */,
 				0CE9C19A1C2BD6C40050E61F /* FouthNetWork.m in Sources */,
 				82ED5C5C1C27AD68009B4D34 /* UIScrollView+JHExtension.m in Sources */,
-				0C28D99E1C2805A50037ABDC /* ThirdDetilafirstTableViewCell.m in Sources */,
 				82ED5C4D1C27AD68009B4D34 /* UIWebView+AFNetworking.m in Sources */,
 				82ED5D761C2AA2E1009B4D34 /* JingXuanHunLiTableViewCell.m in Sources */,
 				82ED5C521C27AD68009B4D34 /* FMResultSet.m in Sources */,
@@ -2969,25 +3026,33 @@
 				0CE9C1911C2BD61F0050E61F /* FouthDetilaTableViewCell.m in Sources */,
 				82ED5C601C27AD68009B4D34 /* README.md in Sources */,
 				82ED5C4E1C27AD68009B4D34 /* FMDatabase.m in Sources */,
+				82244A311C2BF4AB0028900A /* SecondShangPingXiangQingViewController.m in Sources */,
 				82ED5C451C27AD68009B4D34 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				0C28D9911C2801B00037ABDC /* MBProgressHUD.m in Sources */,
 				82ED58BA1C27A8D1009B4D34 /* FirstViewController.m in Sources */,
 				82ED5D651C2AA2E1009B4D34 /* bofangViewController.m in Sources */,
+				82244A401C2BF52D0028900A /* SecondNetWork.m in Sources */,
+				82244A371C2BF4D80028900A /* SecondViewController.m in Sources */,
 				0CE9C18B1C2BD61F0050E61F /* JuTiXiangQingViewController.m in Sources */,
 				82ED5C671C27AD68009B4D34 /* UIImageView+WebCache.m in Sources */,
 				82ED5D5B1C2AA2E1009B4D34 /* HunJiaDetilaViewController.m in Sources */,
+				82244A431C2BF53F0028900A /* SecondLocalData.m in Sources */,
 				0C28D98F1C2801B00037ABDC /* MBProgressHUD+MJ.m in Sources */,
 				0CE9C15E1C2A3BBE0050E61F /* ThirdDetilaFirstCellTableViewCell.m in Sources */,
 				82ED5D7E1C2AA3B9009B4D34 /* FirstNetWork.m in Sources */,
 				0C28D9591C279BE60037ABDC /* AppDelegate.m in Sources */,
+				82244A2F1C2BF4AB0028900A /* BuyOnlineViewController.m in Sources */,
 				0CE9C1CD1C2BD78E0050E61F /* FouthLocalData.m in Sources */,
 				82ED5D811C2AA3C8009B4D34 /* HunTuNetWork.m in Sources */,
 				82ED5D591C2AA2E1009B4D34 /* GengDuoJingXuanHunLiViewController.m in Sources */,
 				82ED5D6F1C2AA2E1009B4D34 /* HunliLingGanCollectionViewCell.m in Sources */,
 				82ED5C651C27AD68009B4D34 /* SDWebImagePrefetcher.m in Sources */,
+				82244A301C2BF4AB0028900A /* SecondDetilaViewController.m in Sources */,
 				82ED5D841C2AA424009B4D34 /* FirstViewLocalData.m in Sources */,
 				82ED5D6D1C2AA2E1009B4D34 /* BigPhotopViewController.m in Sources */,
+				82244A3D1C2BF5190028900A /* SecondListModel.m in Sources */,
 				82ED5C401C27AD68009B4D34 /* AFSecurityPolicy.m in Sources */,
+				82244A331C2BF4AB0028900A /* SecondMainTableViewCell.m in Sources */,
 				82ED5C4B1C27AD68009B4D34 /* UIProgressView+AFNetworking.m in Sources */,
 				82ED5D711C2AA2E1009B4D34 /* HunLiLingGanViewController.m in Sources */,
 				82ED5D671C2AA2E1009B4D34 /* MusicViewController.m in Sources */,

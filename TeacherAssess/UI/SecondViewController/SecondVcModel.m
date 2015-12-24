@@ -1,21 +1,20 @@
 //
-//  FouthVcModel.m
+//  SecondVcModel.m
 //  Wedding
 //
-//  Created by ma on 15-12-24.
-//  Copyright (c) 2015年 ma. All rights reserved.
+//  Created by hjh on 15-10-8.
+//  Copyright (c) 2015年 hjh. All rights reserved.
 //
 
+#import "SecondVcModel.h"
 
-#import "FouthVcModel.h"
-
-@implementation FouthVcModel
+@implementation SecondVcModel
 
 @synthesize id1 = _id;
 
-+(FouthVcModel *)setBeanWithDictionary:(NSDictionary *)dic{
++(SecondVcModel *)setBeanWithDictionary:(NSDictionary *)dic{
     
-    FouthVcModel *bean = [[FouthVcModel alloc]init];
+    SecondVcModel *bean = [[SecondVcModel alloc]init];
     
     [bean setValuesForKeysWithDictionary:dic];
     
@@ -26,14 +25,13 @@
     NSMutableArray *mArr = [NSMutableArray array];
     
     for (NSDictionary *dic in array) {
-        FouthVcModel *bean = [FouthVcModel setBeanWithDictionary:dic];
+        SecondVcModel *bean = [SecondVcModel setBeanWithDictionary:dic];
         
         [mArr addObject:bean];
     }
     
     return mArr;
 }
-
 
 
 @end

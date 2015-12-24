@@ -1,43 +1,38 @@
 //
-//  xiangXiVcViewController.m
+//  BuyOnlineViewController.m
 //  Wedding
 //
-//  Created by ma on 15-12-24.
-//  Copyright (c) 2015年 ma. All rights reserved.
+//  Created by hjh on 15-12-24.
+//  Copyright (c) 2015年 hjh. All rights reserved.
 //
 
+#import "BuyOnlineViewController.h"
 
-#import "xiangXiVcViewController.h"
-#import "TQRichTextView.h"
+@interface BuyOnlineViewController ()<UIWebViewDelegate>
 
-@interface xiangXiVcViewController ()
-
-
-@property(nonatomic,strong)UITableView *myTableview;
-@property(nonatomic,strong)TQRichTextView * TQLable;
-
-@property(nonatomic,strong)UIWebView * webview;
 
 @property(nonatomic,strong)UIImageView *navBarImageView;
 @property(nonatomic,strong)UIButton *leftButton;
 
+@property(nonatomic,strong)UIWebView * WebView;
+
+
 @end
 
-@implementation xiangXiVcViewController
+@implementation BuyOnlineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    NSLog(@"%@",self.lastDic);
     
     //添加头部导航栏
     [self headView];
-    
-    [self setMyWebView];
+
+    [self createWebView];
 
 }
 
 /*********************************************/
-#pragma mark ==== 设置头部导航栏
 -(void)headView{
     
     self.navBarImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 64)];
@@ -46,22 +41,18 @@
     
     [self.view addSubview:self.navBarImageView];
     
-    self.leftButton = [[UIButton alloc]initWithFrame:CGRectMake(10, 25, 20, 30)];
+    self.leftButton = [[UIButton alloc]initWithFrame:CGRectMake(10, 25, 20, 25)];
     [self.leftButton setImage:[UIImage imageNamed:@"back_button.png"] forState:UIControlStateNormal];
     [self.leftButton addTarget:self action:@selector(leftbutClick) forControlEvents:UIControlEventTouchUpInside];
     [self.navBarImageView addSubview:self.leftButton];
-    
-    UIImageView * lineImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 63, self.view.frame.size.width, 1)];
-    lineImageView.backgroundColor = [UIColor lightGrayColor];
-    [self.navBarImageView addSubview:lineImageView];
     
     
     UILabel * titleLable = [[UILabel alloc]init];
     titleLable.center = CGPointMake(self.view.frame.size.width / 2, 40);
     titleLable.bounds = CGRectMake(0, 0, 100, 30);
-    titleLable.text = @"详 细";
+    titleLable.text = @"欢 迎 您";
     titleLable.textColor = [UIColor whiteColor];
-    titleLable.font = [UIFont systemFontOfSize:18];
+    titleLable.font = [UIFont boldSystemFontOfSize:18];
     titleLable.textAlignment = NSTextAlignmentCenter;
     [self.navBarImageView addSubview:titleLable];
 }
@@ -70,19 +61,38 @@
     [self.navigationController popViewControllerAnimated:YES];
     
 }
+
 /*********************************************/
 
--(void)setMyWebView{
+-(void)createWebView{
 
-    self.webview = [[UIWebView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width,self.view.frame.size.height - 64)];
+    self.WebView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64)];
     
-    [self.webview loadHTMLString:self.concentString baseURL:nil];
+    self.WebView.delegate = self;
     
-    [self.view addSubview:self.webview];
+    [self.view addSubview:self.WebView];
+
+    
+    NSURLRequest * requestUrl = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:self.lastDic[@"buy_url"]]];
+    
+    [self.WebView loadRequest:requestUrl];
+
+
+}
+//***************************************
+#pragma mark - webViewDelegate
+-(void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
+    NSLog(@"加载失败调用的方法");
+}
+
+-(void)webViewDidFinishLoad:(UIWebView *)webView{
+    NSLog(@"网页加载完成");
     
 }
 
-
+-(void)webViewDidStartLoad:(UIWebView *)webView{
+    NSLog(@"网页开始加载");
+}
 
 
 - (void)didReceiveMemoryWarning {

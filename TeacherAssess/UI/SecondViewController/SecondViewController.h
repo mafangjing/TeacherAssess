@@ -2,7 +2,7 @@
 //  SecondViewController.h
 //  Wedding
 //
-//  Created by hjh on 15-12-21.
+//  Created by hjh on 15-10-2.
 //  Copyright (c) 2015年 hjh. All rights reserved.
 //
 

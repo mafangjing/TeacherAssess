@@ -1,14 +1,14 @@
 //
-//  FouthLocalData.h
+//  SecondLocalData.h
 //  Wedding
 //
-//  Created by ma on 15-12-24.
-//  Copyright (c) 2015年 ma. All rights reserved.
+//  Created by hjh on 15-12-24.
+//  Copyright (c) 2015年 hjh. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface FouthLocalData : NSObject
+@interface SecondLocalData : NSObject
 
 
 //插入数据

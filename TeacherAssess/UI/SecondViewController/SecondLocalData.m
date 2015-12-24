@@ -1,15 +1,14 @@
 //
-//  FouthLocalData.m
+//  SecondLocalData.m
 //  Wedding
 //
-//  Created by ma on 15-12-24.
-//  Copyright (c) 2015年 ma. All rights reserved.
+//  Created by hjh on 15-12-24.
+//  Copyright (c) 2015年 hjh. All rights reserved.
 //
 
-#import "FouthLocalData.h"
+#import "SecondLocalData.h"
 
-@implementation FouthLocalData
-
+@implementation SecondLocalData
 
 
 
@@ -22,23 +21,21 @@
     [myDB createDataBaseWithFilePath:[NSString stringWithFormat:@"%@/Documents/%@.sqlite",NSHomeDirectory(),WeddingCollectDataBase]];
     
     //创建数据库的list表单
-    [myDB createTableWithTableName:FouthLocalDataTable tableArray:FouthLocalDataTableArray];
+    [myDB createTableWithTableName:SecondLocalDataTable tableArray:SecondLocalDataTableArray];
     
     //再插入之前，先把表单数据清空
-    [myDB deleteAllDataWithTableName:FouthLocalDataTable];
+    [myDB deleteAllDataWithTableName:SecondLocalDataTable];
     
     for (NSDictionary * dict in dic[@"list"]) {
         
         NSMutableDictionary *mdict = [NSMutableDictionary dictionary];
         
-        [mdict setObject:dict[@"address"] forKey:@"address"];
-        [mdict setObject:dict[@"level"] forKey:@"level"];
-        [mdict setObject:dict[@"logo"] forKey:@"logo"];
+        [mdict setObject:dict[@"bkg_path"] forKey:@"bkg_path"];
+        [mdict setObject:dict[@"cover_path"] forKey:@"cover_path"];
+        [mdict setObject:dict[@"desc"] forKey:@"desc"];
         [mdict setObject:dict[@"id"] forKey:@"id1"];
-        [mdict setObject:dict[@"name"] forKeyedSubscript:@"name"];
-        [mdict setObject:dict[@"operate"] forKey:@"operate"];
-        
-        [myDB insertDataWithTableName:FouthLocalDataTable insertDictionary:mdict];
+        [mdict setObject:dict[@"title"] forKeyedSubscript:@"title"];
+        [myDB insertDataWithTableName:SecondLocalDataTable insertDictionary:mdict];
     }
     
     //关闭数据库
@@ -55,17 +52,20 @@
     [myDB createDataBaseWithFilePath:[NSString stringWithFormat:@"%@/Documents/%@.sqlite",NSHomeDirectory(),WeddingCollectDataBase]];
     
     //创建数据库的list表单
-    [myDB createTableWithTableName:FouthLocalDataTable tableArray:FouthLocalDataTableArray];
+    [myDB createTableWithTableName:SecondLocalDataTable tableArray:SecondLocalDataTableArray];
     
     
     //查询表单中的数据
-    NSArray *listArray = [myDB selectDataWithTableName:FouthLocalDataTable scutureArray:FouthLocalDataTableArray];
+    NSArray *listArray = [myDB selectDataWithTableName:SecondLocalDataTable scutureArray:SecondLocalDataTableArray];
     
     //    NSLog(@"%@",listArray);
     
     
     return listArray;
 }
+
+
+
 
 
 @end
